@@ -1,0 +1,21 @@
+Logging-record all events in the form of text
+
+Why we need logs?
+suppose we r running 100s of testcases some time fail or skip or pass  and 
+u have to know where exactly it will fail why it failed
+those information are all in log file
+
+
+we can log automation logs and application logs
+
+Log Levels - All < Trace < Debug < Info < Warn < Error < Fatal < Off
+
+
+Appenders - where to generate logs (Console/File)
+Loggers  - what type of logs generate 
+           (All < Trace < Debug < Info < Warn < Error < Fatal < Off)
+
+
+The Feature keyword is used to define a high-level or functionality of the software being tested.
+The scenario keyword is used to define specific test scenario or test case within the feature .Each scenario
+represents a particular behaviour or functionality being tested.
